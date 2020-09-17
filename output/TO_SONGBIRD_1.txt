@@ -1,0 +1,9 @@
+10C	11C	12C	13C	14C	15C	16C	1C	2C	3C	4C	5C	6C	7C	8C	9C	10SDP	11SDP	12SDP	13SDP	14SDP	15SDP	1SDP	2SDP	3SDP	4SDP	5SDP	6SDP	7SDP	8SDP	9SDP
+Streptococcaceae	43	4	9	7	24	23	0	17	48	45	26	18	31	26	1	53	4	11	2	3	5	4	4	18	1	4	19	6	16	3	7
+Fusobacteriaceae	0	10	20	3	0	28	27	0	0	1	28	6	2	7	45	1	4	0	4	1	3	6	12	0	7	5	15	8	14	9	16
+Neisseriaceae	8	9	0	15	27	0	0	0	9	7	0	0	11	3	4	2	0	1	0	0	3	7	19	10	1	9	1	0	36	8	2
+Pasteurellaceae	5	5	5	21	31	0	0	25	0	5	6	0	1	18	2	17	0	6	0	0	0	1	2	0	0	9	1	0	1	0	0
+Veillonellaceae	18	1	0	1	5	5	2	2	16	6	0	1	1	8	1	0	9	3	0	4	3	4	1	8	0	1	3	4	3	2	1
+Prevotellaceae	1	1	2	1	0	10	1	1	0	0	9	14	26	3	5	0	6	0	4	1	1	5	0	0	1	5	5	6	1	3	3
+Porphyromonadaceae	0	0	0	0	0	5	7	1	0	0	12	7	0	0	14	0	3	0	12	1	1	2	1	0	5	6	10	2	0	7	4
+Leptotrichiaceae	1	5	9	0	0	0	0	0	5	0	1	1	2	0	11	0	1	1	2	0	2	6	3	16	0	2	4	12	5	1	0
