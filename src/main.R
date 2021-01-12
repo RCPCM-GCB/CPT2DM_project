@@ -1,4 +1,4 @@
-workDir <- "/home/acari/github/teeth_project"
+workDir <- "/home/acari/github/CPT2DM_project/"
 setwd(workDir)
 
 library(dada2)
@@ -7,7 +7,6 @@ library(ggplot2)
 library(pheatmap)
 library(zCompositions)
 library(compositions)
-library(selbal)
 
 source("src/mini_compositions_lib.R")
 
@@ -84,11 +83,14 @@ OTU_2 <- as.data.frame(t(OTU))
 OTU_2 <- OTU_2[order(colSums(OTU_2), decreasing = T)]
 write.table(OTU_2, "output/OTU.table.txt", sep = "\t", quote = F, row.names = T)
 
-heatmap_family <- pheatmap(log(OTU+10), cluster_cols = F, 
-         show_colnames = F, 
-         annotation_col = df.annot, annotation_colors = df.annot.col,
-         annotation_legend = F,
-         gaps_col = c(16,16, 31,31))
+heatmap_family <- pheatmap(log(OTU[order(rowSums(OTU), decreasing = T),]+10), 
+    cluster_cols = F,
+    cluster_rows = F,
+    show_colnames = F, 
+    annotation_col = df.annot, annotation_colors = df.annot.col,
+    annotation_legend = F,
+    gaps_row = c(8,8),
+    gaps_col = c(16,16, 31,31))
 
 svg(filename="figures/heatmap_family.svg", width=10, height=4.5)
 heatmap_family
